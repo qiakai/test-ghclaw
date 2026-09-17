@@ -1,0 +1,26 @@
+{
+    "id": "20230654350",
+    "type": "PushEvent",
+    "actor": {
+        "id": 75728816,
+        "login": "qiakai",
+        "display_login": "qiakai",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/qiakai",
+        "avatar_url": "https://avatars.githubusercontent.com/u/75728816?"
+    },
+    "repo": {
+        "id": 898922499,
+        "name": "qiakai/test-github-action",
+        "url": "https://api.github.com/repos/qiakai/test-github-action"
+    },
+    "payload": {
+        "repository_id": 898922499,
+        "push_id": 42562191929,
+        "ref": "refs/heads/main",
+        "head": "36c4757233b548a3f5eda07a7fea64efd6106f47",
+        "before": "973dc9c8306123dbd1d795de61b0d66fde73801e"
+    },
+    "public": true,
+    "created_at": "2026-09-04T08:52:44Z"
+}
