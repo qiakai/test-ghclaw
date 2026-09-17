@@ -1,0 +1,31 @@
+{
+    "id": "15216660006",
+    "type": "GollumEvent",
+    "actor": {
+        "id": 75728816,
+        "login": "qiakai",
+        "display_login": "qiakai",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/qiakai",
+        "avatar_url": "https://avatars.githubusercontent.com/u/75728816?"
+    },
+    "repo": {
+        "id": 1374314523,
+        "name": "qiakai/test-ghclaw",
+        "url": "https://api.github.com/repos/qiakai/test-ghclaw"
+    },
+    "payload": {
+        "pages": [
+            {
+                "page_name": "Events",
+                "title": "Events",
+                "summary": null,
+                "action": "created",
+                "sha": "f22c3c120d472dfeb90ff7b03353ef143fa9b796",
+                "html_url": "https://github.com/qiakai/test-ghclaw/wiki/Events"
+            }
+        ]
+    },
+    "public": true,
+    "created_at": "2026-09-17T11:53:49Z"
+}
