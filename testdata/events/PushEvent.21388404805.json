@@ -1,0 +1,26 @@
+{
+    "id": "21388404805",
+    "type": "PushEvent",
+    "actor": {
+        "id": 75728816,
+        "login": "qiakai",
+        "display_login": "qiakai",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/qiakai",
+        "avatar_url": "https://avatars.githubusercontent.com/u/75728816?"
+    },
+    "repo": {
+        "id": 1374314523,
+        "name": "qiakai/test-ghclaw",
+        "url": "https://api.github.com/repos/qiakai/test-ghclaw"
+    },
+    "payload": {
+        "repository_id": 1374314523,
+        "push_id": 43841061906,
+        "ref": "refs/heads/main",
+        "head": "3e7e7533c4cd6c905cf6ff4281fb80595f1a2b15",
+        "before": "011acc67f1e9c5a4edc6f6893dc76679ffc7417a"
+    },
+    "public": true,
+    "created_at": "2026-09-17T11:23:49Z"
+}

@@ -19,18 +19,20 @@ ghclaw 的测试沙盒仓库。
 
 事件类型清单（产生方式见各类型文档需求）：
 
-- [x] PushEvent — git push
+- [x] PushEvent — git push（注意: feed 延迟可达 10 分钟+）
 - [x] IssueCommentEvent — issue/PR 下评论
-- [ ] IssuesEvent — 开/关 issue
-- [ ] PullRequestEvent — 开/关/合并 PR
-- [ ] PullRequestReviewEvent — 提交 review
-- [ ] PullRequestReviewCommentEvent — diff 行内评论
-- [ ] ReleaseEvent — 发布 release
-- [ ] CreateEvent / DeleteEvent — 建删分支或 tag
-- [ ] WatchEvent — star 本仓库
-- [ ] ForkEvent — fork 本仓库
-- [ ] GollumEvent — wiki 编辑
-- [ ] MemberEvent — 添加协作者
+- [x] IssuesEvent — 开/关 issue
+- [x] PullRequestEvent — 开 PR / 合并 PR
+- [x] PullRequestReviewEvent — 提交 review（COMMENT 类型；不能 approve 自己的 PR）
+- [x] PullRequestReviewCommentEvent — diff 行内评论
+- [x] ReleaseEvent — 发布 release
+- [x] DeleteEvent — 删分支
+- [x] WatchEvent — star 本仓库
+- [x] PublicEvent — 仓库转 public
+- [ ] CreateEvent — 建分支/tag（分支创建先于监听启动被当历史跳过；tag 创建的 feed 延迟超长，待补）
+- [ ] GollumEvent — wiki 编辑（wiki git 仓库需先在浏览器创建首页才开通）
+- [ ] ForkEvent — fork 本仓库（需要第二个账号/组织）
+- [ ] MemberEvent — 添加协作者（需要第二个账号）
 batch1: Thu Sep 17 19:23:46 CST 2026
 ab-test: Thu Sep 17 19:28:53 CST 2026
 retry: Thu Sep 17 19:29:59 CST 2026

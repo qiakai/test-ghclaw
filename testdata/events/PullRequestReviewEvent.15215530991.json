@@ -1,0 +1,85 @@
+{
+    "id": "15215530991",
+    "type": "PullRequestReviewEvent",
+    "actor": {
+        "id": 75728816,
+        "login": "qiakai",
+        "display_login": "qiakai",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/qiakai",
+        "avatar_url": "https://avatars.githubusercontent.com/u/75728816?"
+    },
+    "repo": {
+        "id": 1374314523,
+        "name": "qiakai/test-ghclaw",
+        "url": "https://api.github.com/repos/qiakai/test-ghclaw"
+    },
+    "payload": {
+        "review": {
+            "id": 5235053137,
+            "node_id": "PRR_kwDOUepgG88AAAABOAiSUQ",
+            "user": {
+                "login": "qiakai",
+                "id": 75728816,
+                "node_id": "MDQ6VXNlcjc1NzI4ODE2",
+                "avatar_url": "https://avatars.githubusercontent.com/u/75728816?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/qiakai",
+                "html_url": "https://github.com/qiakai",
+                "followers_url": "https://api.github.com/users/qiakai/followers",
+                "following_url": "https://api.github.com/users/qiakai/following{/other_user}",
+                "gists_url": "https://api.github.com/users/qiakai/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/qiakai/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/qiakai/subscriptions",
+                "organizations_url": "https://api.github.com/users/qiakai/orgs",
+                "repos_url": "https://api.github.com/users/qiakai/repos",
+                "events_url": "https://api.github.com/users/qiakai/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/qiakai/received_events",
+                "type": "User",
+                "user_view_type": "public",
+                "site_admin": false
+            },
+            "body": null,
+            "commit_id": "0c0d601f502cc6d477bff9b6a1e7d3931856afec",
+            "state": "commented",
+            "html_url": "https://github.com/qiakai/test-ghclaw/pull/2#pullrequestreview-5235053137",
+            "pull_request_url": "https://api.github.com/repos/qiakai/test-ghclaw/pulls/2",
+            "_links": {
+                "html": {
+                    "href": "https://github.com/qiakai/test-ghclaw/pull/2#pullrequestreview-5235053137"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/qiakai/test-ghclaw/pulls/2"
+                }
+            },
+            "submitted_at": "2026-09-17T11:34:05Z",
+            "updated_at": "2026-09-17T11:34:06Z"
+        },
+        "pull_request": {
+            "url": "https://api.github.com/repos/qiakai/test-ghclaw/pulls/2",
+            "id": 4557919385,
+            "number": 2,
+            "head": {
+                "ref": "test/events",
+                "sha": "0c0d601f502cc6d477bff9b6a1e7d3931856afec",
+                "repo": {
+                    "id": 1374314523,
+                    "url": "https://api.github.com/repos/qiakai/test-ghclaw",
+                    "name": "test-ghclaw"
+                }
+            },
+            "base": {
+                "ref": "main",
+                "sha": "77d8cd3c2bd5758909ab9c78586d3f07300a2efe",
+                "repo": {
+                    "id": 1374314523,
+                    "url": "https://api.github.com/repos/qiakai/test-ghclaw",
+                    "name": "test-ghclaw"
+                }
+            }
+        },
+        "action": "created"
+    },
+    "public": true,
+    "created_at": "2026-09-17T11:34:08Z"
+}
